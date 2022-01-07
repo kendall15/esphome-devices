@@ -28,8 +28,10 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
 
-logger:
-  baud_rate: 0 # (UART logging interferes with cse7766)
+#Enabling loging on this device may cause repeted crashing
+#logger:
+#  baud_rate: 0 # (UART logging interferes with cse7766)
+
 api:
 ota:
 
